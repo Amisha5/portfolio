@@ -1,6 +1,8 @@
         *
         {
           margin: 0px;
+          width: auto;
+          height: auto;
         }
       .home .full-screen
       {
