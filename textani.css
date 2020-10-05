@@ -1,253 +1,191 @@
+        /* BODY LAYOUT */
         *
         {
           margin: 0px;
           width: auto;
           height: auto;
         }
-      .home .full-screen
-      {
+        /* HEADER NAME ANIMATION */
+        .animation
+        {
+          animation-name: example;
+          animation-duration: 4s;
+          width: 130px;
+          animation-iteration-count: infinite;
+          border-radius: 10px;
+          position: relative;
+        }
+        /* HOME SECTION */
+        .home .full-screen
+        {
+          height: 100vh;
+        }
 
-      height: 100vh;
-      }
-      .home .home-content
-      {
-        margin-top: 200px;
-     
-      padding-left: 10px;
-      flex: 0 0 100%;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      }
-      .home .home-content .block
-      {
-      border-left: 6px solid black;
-      height: 252px;
-      flex-wrap: 0 0 75%;
-      max-width: 75%;
-      
-      padding-left: 7px;
+        .home .home-content
+        {
+          margin-top: 200px;
+          padding-left: 10px;
+          flex: 0 0 100%;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+        }
 
-      }
-      .home .home-content .block h6
-      {
-      font-style: bold;
-      font-family: times new roman;
-      font-size: 28px;
-      font-weight: 500;
-      margin: 0;
-      padding: 0;
-      color:#800000;
-      }
-      .home .home-content .block h1
-      {
-        font-family: times new roman;
-      color: #ffffff;
-      font-size: 50px;
-      font-weight: 600;
-      margin: 0;
-      padding: 0;
-      color: #800000;
-      }
-      .home .home-content .block h3
-      {
-        font-family: times new roman;
-      color: #ffffff;
-      font-size: 25px;
-      font-weight: 500;
-      margin: 0;
-      padding: 0;
+        .home .home-content .block
+        {
+          border-left: 6px solid black;
+          height: 252px;
+          flex-wrap: 0 0 75%;
+          max-width: 75%;
+          padding-left: 7px;
+        }
 
-      color: #800000;
-      }
-      .home .home-content .block .cv-btn
-      {
-      padding-top: 20px;
-      
-      }
-      .home .home-content .block .cv-btn a
-      {
-      border-radius: 4px;
-      color: black;
-      border:3px solid black;
-      padding:10px 23px;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 20px;
-      text-transform: uppercase;
-      font-weight: bold;
-      transition: all .5s ease;
-      background-color: transparent;
-      }
-      .home .home-content .block .cv-btn a:hover
-      {
-      background-color:#000000;
-      color: white;
-      border-color: blue;
-      }
+        .home .home-content .block h6
+        {
+          font-style: bold;
+          font-family: times new roman;
+          font-size: 28px;
+          font-weight: 500;
+          margin: 0;
+          padding: 0;
+          color:#800000;
+        }
 
-      
-      .logo
-      {
+        .home .home-content .block h1
+        {
+          font-family: times new roman;
+          color: #ffffff;
+          font-size: 50px;
+          font-weight: 600;
+          margin: 0;
+          padding: 0;
+          color: #800000;
+        }
 
-        width: 14%;
-        height: 15vh;
-        margin: 10px;
-        border-radius: 10px;
-        padding: 6px;
+        .home .home-content .block h3
+        {
+          font-family: times new roman;
+          color: #ffffff;
+          font-size: 25px;
+          font-weight: 500;
+          margin: 0;
+          padding: 0;
+          color: #800000;
+        }
+
+        .home .home-content .block .cv-btn
+        {
+          padding-top: 20px;
+        }
+
+        .home .home-content .block .cv-btn a
+        {
+          border-radius: 4px;
+          color: black;
+          border:3px solid black;
+          padding:10px 23px;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: bold;
+          transition: all .5s ease;
+          background-color: transparent;
+        }
+        .home .home-content .block .cv-btn a:hover
+        {
+          background-color:#000000;
+          color: white;
+          border-color: blue;
+        }
+
+        /* FOR HEADING OF EACH SECTION */
+        .ftns
+        {
+          font-size: 50px;
+          font-weight: bold;
+          color: rgb(47,79,79);
+          padding: 3px;
+          width: 250px;
+          margin: 10px;
+          font-family: times new roman;
+        }
+
+        .skil
+        {
+          font-size: 25px;
+          font-family: times new roman;
+        }
+
+        /* For ACADEMICS CONTENT INDENTATION */
+        .indentation 
+        {
+          margin-left: 35px;
+          text-indent: 0px;
+          font-size: 25px;
+          color: black;
+        }
+
+        .indentation > h3
+        {
+          color: #880e0e;
+          font-weight: bold;
+          font-family: "Times New Roman", Times, serif;
+        }
+        .indentation > h4
+        {
+          font-weight: italic;
+        }
+        .indentation > p
+        {
+          color: #232f3c;
+          font-size: 20px;
+        }
+
+        /* FOR PROJECT INDENTATION */
+        .indens
+        {
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+        .indens > h3
+        {
+          text-indent: initial;
+          margin-left: 5px;
+         font-weight: bold;
+         font-size: 30px;
+         color:  #880e0e;
+          font-family: "Times New Roman", Times, serif;
+
+        }
+        .indens > p
+        {
+          text-indent: auto;
+          margin-left: 5px;
+          font-size: 19px;
+          color: #232f3c;
+        }
+
+        /* FOR TECHNOLOGY DESIGN */
+        .techno
+        {
+          margin-left: 40px;
+        }
+        .techno > p
+        {
+          font-size: 23px;
+          font-family: "Times New Roman", Times, serif;
+        }
         
-      } 
-      .logos
-      {
-        width: 16%;
-        height: 15vh;
-        margin: 10px;
-        border-radius: 10px;
-        padding: 10px;
-
-      } 
-      .ftn
-      {
-        font-size: 40px;
-        font-weight: bold;
-        color: rgb(47,79,79);
-        font-family: times new roman;
-        /*border-bottom: solid 5px black;*/
-        padding: 3px;
-        width: 150px;
-        
-      }
-      .ftns
-      {
-        font-size: 50px;
-        font-weight: bold;
-        color: rgb(47,79,79);
-        /*border-bottom: solid 5px black;*/
-        padding: 3px;
-        width: 250px;
-        margin: 10px;
-        font-family: times new roman;
-        
-        
-      }
-      .skil
-      {
-        font-size: 25px;
-        font-family: times new roman;
-      }
-      .techno
-      {
-        margin-left: 40px;
-      }
-      .techno > p
-      {
-        font-size: 23px;
-        font-family: "Times New Roman", Times, serif;
-      }
-      .inden
-          {
-            margin-left: 35px;
-            text-indent: 0px;
-            font-size: 25px;
-            color: black;
-          }
-      .animation
-      {
-        animation-name: example;
-        animation-duration: 4s;
-        width: 130px;
-        animation-iteration-count: infinite;
-        border-radius: 10px;
-        
-        position: relative;
-      }
-      .inden > h3
-      {
-        color: #880e0e;
-        font-weight: bold;
-        font-family: "Times New Roman", Times, serif;
-      }
-      .inden > h4
-      {
-        font-weight: italic;
-      }
-      .inden > p
-      {
-        color: #232f3c;
-        font-size: 20px;
-      }
-      .indens
-      {
-        margin-top: 20px;
-        margin-left: 10px;
-      }
-
-      .indens > h3
-      {
-        text-indent: initial;
-        margin-left: 5px;
-       font-weight: bold;
-       font-size: 30px;
-       color:  #880e0e;
-        font-family: "Times New Roman", Times, serif;
-
-      }
-      .indens > p
-      {
-        text-indent: auto;
-        margin-left: 5px;
-        font-size: 19px;
-        color: #232f3c;
-
-      }
-      @keyframes example {
-        0%   { left: 0px; top: 0px;
-            font-size: 20px;}
-        50%   { left: 0px; top: 0px;
-            font-size: 10px;}
-        100%   {left: 0px; top: 0px;
-            font-size: 20px;}
-        
-          }     
-
-          .social
-          {
-            
-            margin-left: 40px;
-            color: black;
-            bottom: 20px;
-            
-          }
-          #styles
-          {
-            padding: 1px;
-            bottom: 10px;
-            
-            margin-left: 4px;
-          }
-
-          .tech
-          {
-            font-size: 20px;
-            letter-spacing: 2px;
-          }
-          /*
-          .home
-          {
-            background-image: url("images/img111.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            height: 150vh;
-          }*/
-          .certi
+                
+        /* FOR CERTIFICATION */
+        .certi
           {
             margin-left: 5px;
             padding: 2px;
             margin-top: 30px;
-            margin-bottom: 30px;
-            
+            margin-bottom: 30px;      
           }
           .certi > ul > li 
           {
@@ -258,8 +196,14 @@
           .certi > ul > li > i > a > img
           {
             width: 40px;
-             height: 40px;
-              padding: 8px;
+            height: 40px;
+            padding: 8px;
           }
 
-        
+          /* FOR  SOCIAL SITES OR FOOTER*/
+          .social
+          {
+            margin-left: 40px;
+            color: black;
+            bottom: 20px;  
+          }
